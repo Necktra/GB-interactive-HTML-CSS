@@ -9,3 +9,23 @@
     background-image: url(/img/slider.jpeg);
     margin: 0 auto;
 }
+
+/* .slide_selictor {
+    margin: 0 auto;
+} */
+
+.slide_select {
+    display: inline-block;
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    /* margin: 0 auto; */
+}
+
+.active_slide {
+    background-color: #212121;   
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
