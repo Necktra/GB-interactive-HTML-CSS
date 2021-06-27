@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 1366px;
+    height: 800px;
+    background-image: url(/img/slider.jpeg);
+    margin: 0 auto;
+}
