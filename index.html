@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="slider">
             <div class="slider_content">
-                <a href="*"><img src="img/logo.png" alt="logo"></a>
-                <ul class="menu">
-                    <li class="li_menu">Home</li>
-                    <li class="li_menu">Products</li>
-                    <li class="li_menu">History</li>
-                    <li class="li_menu">Showroom</li>
-                    <li class="li_menu">Contact</li>
-                </ul>
-                <img src="img/search.png" alt="search">
+                <div class="header"> <a href="*"><img src="img/logo.svg" alt="logo"></a>
+                    <ul class="menu">
+                        <li class="li_menu li_menu-active">HOME</li>
+                        <li class="li_menu">PRODUCTS</li>
+                        <li class="li_menu">HISTORY</li>
+                        <li class="li_menu">SHOWROOM</li>
+                        <li class="li_menu">CONTACT</li>
+                    </ul>
+                    <img src="img/search.svg" alt="search">
+                </div>
 
-                <p>Trending</p>
-                <h3>Fishnet chair</h3>
+                <div class="text-content">
+                    <p class="slider-trending">Trending</p>
+                    <h2 class="slider-h2">Fishnet chair</h2>
 
-                <p>Seat and back with upholstery made of cold cure foam. Steel frame. <br>
-                available in matt powder-coated black</p>
+                    <p class="slider-text-content">Seat and back with upholstery made of cold cure foam. Steel frame.
+                        <br>
+                        available in matt powder-coated black</p>
 
-                <button>Order us</button>
+                    <a href="#" class="slider-button">Order us</a>
+                </div>
+
 
                 <div class="slide_selector">
-                    <div class="slide_select"></div>
+                    <a href="#" class="slide_select"></a>
+                    <a href="#" class="slide_select active_slide"></a>
+                    <a href="#" class="slide_select"></a>
+                    <!-- <div class="slide_select"></div>
                     <div class="slide_select active_slide"></div>
-                    <div class="slide_select"></div>
+                    <div class="slide_select"></div> -->
                 </div>
             </div>
 
@@ -41,4 +54,5 @@
 
     </div>
 </body>
+
 </html>
